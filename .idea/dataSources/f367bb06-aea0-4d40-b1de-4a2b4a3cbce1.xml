@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="VARS">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.9">
+    <root id="1">
+      <ServerVersion>13.0.400</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="VARS">
+      <ObjectId>11</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="M3_ANNOTATIONS">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="8" parent="1" name="M3_VIDEO_ASSETS">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="9" parent="1" name="SEPM">
+      <ObjectId>7</ObjectId>
+    </database>
+    <database id="10" parent="1" name="MMB">
+      <ObjectId>8</ObjectId>
+    </database>
+    <database id="11" parent="1" name="EXPD">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="12" parent="1" name="MBARI_Samples">
+      <ObjectId>10</ObjectId>
+    </database>
+    <database id="13" parent="1" name="ENGDrawings">
+      <ObjectId>12</ObjectId>
+    </database>
+    <database id="14" parent="1" name="distribution">
+      <ObjectId>13</ObjectId>
+    </database>
+    <database id="15" parent="1" name="VNTA_CTD_Config">
+      <ObjectId>14</ObjectId>
+    </database>
+    <database id="16" parent="1" name="VARS_IMAGES">
+      <ObjectId>15</ObjectId>
+    </database>
+    <database id="17" parent="1" name="VARS_KB">
+      <ObjectId>16</ObjectId>
+    </database>
+    <database id="18" parent="1" name="VARS_VIDEO">
+      <ObjectId>17</ObjectId>
+    </database>
+    <database id="19" parent="1" name="DSG">
+      <ObjectId>18</ObjectId>
+    </database>
+    <database id="20" parent="1" name="VNTA_DiveLog">
+      <ObjectId>19</ObjectId>
+    </database>
+    <schema id="21" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-06-14.06:02:55.080</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="22" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="23" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="24" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="25" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="26" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="27" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="28" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="29" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="30" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="31" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="32" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="33" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="34" parent="21" name="Association">
+      <ObjectId>2121058592</ObjectId>
+      <CreatedTimestamp>2010-02-22.06:58:02.463</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:55.013</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="21" name="CameraData">
+      <ObjectId>2137058649</ObjectId>
+      <CreatedTimestamp>2010-02-22.06:58:02.547</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.650</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="21" name="CameraPlatformDeployment">
+      <ObjectId>5575058</ObjectId>
+      <CreatedTimestamp>2010-02-22.06:58:02.593</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.277</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="21" name="EXPDMergeHistory">
+      <ObjectId>1266155606</ObjectId>
+      <CreatedTimestamp>2013-03-11.09:54:05.857</CreatedTimestamp>
+      <ModifiedTimestamp>2013-03-11.09:54:05.867</ModifiedTimestamp>
+    </table>
+    <table id="38" parent="21" name="EXPDMergeStatus">
+      <ObjectId>21575115</ObjectId>
+      <CreatedTimestamp>2010-02-22.06:58:02.640</CreatedTimestamp>
+      <ModifiedTimestamp>2010-10-16.18:17:17.053</ModifiedTimestamp>
+    </table>
+    <table id="39" parent="21" name="Observation">
+      <ObjectId>37575172</ObjectId>
+      <CreatedTimestamp>2010-02-22.06:58:02.703</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:55.137</ModifiedTimestamp>
+    </table>
+    <table id="40" parent="21" name="PhysicalData">
+      <ObjectId>53575229</ObjectId>
+      <CreatedTimestamp>2010-02-22.07:04:09.067</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.410</ModifiedTimestamp>
+    </table>
+    <table id="41" parent="21" name="UniqueID">
+      <ObjectId>69575286</ObjectId>
+      <CreatedTimestamp>2010-02-22.07:04:09.123</CreatedTimestamp>
+      <ModifiedTimestamp>2010-10-05.05:00:45.793</ModifiedTimestamp>
+    </table>
+    <table id="42" parent="21" name="VideoArchive">
+      <ObjectId>85575343</ObjectId>
+      <CreatedTimestamp>2010-02-22.07:04:09.170</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.120</ModifiedTimestamp>
+    </table>
+    <table id="43" parent="21" name="VideoArchiveSet">
+      <ObjectId>101575400</ObjectId>
+      <CreatedTimestamp>2010-02-22.07:04:09.233</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.757</ModifiedTimestamp>
+    </table>
+    <table id="44" parent="21" name="VideoFrame">
+      <ObjectId>117575457</ObjectId>
+      <CreatedTimestamp>2010-02-22.07:04:09.283</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:26:54.887</ModifiedTimestamp>
+    </table>
+    <view id="45" parent="21" name="Annotations">
+      <ObjectId>773577794</ObjectId>
+      <CreatedTimestamp>2010-02-25.08:58:56.627</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:46:27.770</ModifiedTimestamp>
+    </view>
+    <view id="46" parent="21" name="EXPDMergeHistorySummary">
+      <ObjectId>1298155720</ObjectId>
+      <CreatedTimestamp>2013-03-12.08:07:55.700</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:46:27.780</ModifiedTimestamp>
+    </view>
+    <view id="47" parent="21" name="EXPDMergeSummary">
+      <ObjectId>1175675236</ObjectId>
+      <CreatedTimestamp>2010-11-02.02:25:27.240</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:46:27.783</ModifiedTimestamp>
+    </view>
+    <view id="48" parent="21" name="QualityImageAnnotations">
+      <ObjectId>1514540529</ObjectId>
+      <CreatedTimestamp>2015-11-25.06:48:41.320</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:46:27.787</ModifiedTimestamp>
+    </view>
+    <view id="49" parent="21" name="transect_annotations">
+      <ObjectId>91199425</ObjectId>
+      <CreatedTimestamp>2013-07-01.01:48:41.420</CreatedTimestamp>
+      <ModifiedTimestamp>2018-03-07.00:46:27.790</ModifiedTimestamp>
+    </view>
+    <column id="50" parent="34" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="34" name="ObservationID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="52" parent="34" name="LinkName">
+      <Position>3</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+    </column>
+    <column id="53" parent="34" name="ToConcept">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="54" parent="34" name="LinkValue">
+      <Position>5</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="55" parent="34" name="LAST_UPDATED_TIME">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="56" parent="34" name="Association_PK">
+      <Position>5</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="57" parent="34" name="idx_Association_FK1">
+      <Position>6</Position>
+      <ColNames>ObservationID_FK</ColNames>
+    </index>
+    <index id="58" parent="34" name="idx_Association_LUT">
+      <Position>7</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="59" parent="34" name="idx_Association_ToConcept">
+      <Position>8</Position>
+      <ColNames>ToConcept</ColNames>
+    </index>
+    <index id="60" parent="34" name="idx_Association_PK">
+      <Position>12</Position>
+      <ColNames>id</ColNames>
+    </index>
+    <key id="61" parent="34" name="Association_PK">
+      <ObjectId>661577395</ObjectId>
+      <CreatedTimestamp>2010-02-25.05:31:26.580</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-25.05:31:26.580</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>Association_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="34" name="Association_FK1">
+      <ObjectId>1577108709</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.180</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.233</ModifiedTimestamp>
+      <ColNames>ObservationID_FK</ColNames>
+      <RefTableId>37575172</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Observation</RefTableName>
+      <RefKeyName>Observation_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="35" name="VideoFrameID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="65" parent="35" name="Name">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="66" parent="35" name="Direction">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="67" parent="35" name="Zoom">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="68" parent="35" name="Focus">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="69" parent="35" name="Iris">
+      <Position>7</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="70" parent="35" name="FieldWidth">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="71" parent="35" name="StillImageURL">
+      <Position>9</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="72" parent="35" name="LogDTG">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="73" parent="35" name="LAST_UPDATED_TIME">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="74" parent="35" name="X">
+      <Position>13</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="75" parent="35" name="Y">
+      <Position>14</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="76" parent="35" name="Z">
+      <Position>15</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="77" parent="35" name="PITCH">
+      <Position>16</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="78" parent="35" name="ROLL">
+      <Position>17</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="79" parent="35" name="XYUNITS">
+      <Position>18</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="80" parent="35" name="ZUNITS">
+      <Position>19</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="81" parent="35" name="HEADING">
+      <Position>20</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="82" parent="35" name="VIEWHEIGHT">
+      <Position>21</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="83" parent="35" name="VIEWWIDTH">
+      <Position>22</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="84" parent="35" name="VIEWUNITS">
+      <Position>23</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <index id="85" parent="35" name="CameraData_PK">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="86" parent="35" name="uc_VideoFrameID_FK">
+      <Position>5</Position>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="87" parent="35" name="idx_CameraData_FK1">
+      <Position>6</Position>
+      <ColNames>VideoFrameID_FK</ColNames>
+    </index>
+    <index id="88" parent="35" name="idx_CameraData_LUT">
+      <Position>7</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <key id="89" parent="35" name="CameraData_PK">
+      <ObjectId>389576426</ObjectId>
+      <CreatedTimestamp>2010-02-25.02:35:28.687</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-25.02:35:28.687</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>CameraData_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="90" parent="35" name="uc_VideoFrameID_FK">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2010-09-01.14:29:16.433</CreatedTimestamp>
+      <ModifiedTimestamp>2010-09-01.14:29:16.433</ModifiedTimestamp>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <UnderlyingIndexName>uc_VideoFrameID_FK</UnderlyingIndexName>
+    </key>
+    <foreign-key id="91" parent="35" name="CameraData_FK1">
+      <ObjectId>1609108823</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.260</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.260</ModifiedTimestamp>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <RefTableId>117575457</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoFrame</RefTableName>
+      <RefKeyName>VideoFrame_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="92" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="36" name="VideoArchiveSetID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="94" parent="36" name="SeqNumber">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="95" parent="36" name="ChiefScientist">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="96" parent="36" name="UsageStartDTG">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="97" parent="36" name="UsageEndDTG">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="98" parent="36" name="LAST_UPDATED_TIME">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="99" parent="36" name="idx_CameraDeployment_FK1">
+      <Position>5</Position>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+    </index>
+    <index id="100" parent="36" name="idx_CameraPlatformDeployment_LUT">
+      <Position>6</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="101" parent="36" name="CameraDeployment_PK">
+      <Position>7</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="36" name="CameraDeployment_PK">
+      <ObjectId>677577452</ObjectId>
+      <CreatedTimestamp>2010-02-25.05:37:26.250</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-25.05:37:26.250</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>CameraDeployment_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="103" parent="36" name="CameraDeployment_FK1">
+      <ObjectId>1673109051</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.320</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.320</ModifiedTimestamp>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+      <RefTableId>101575400</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoArchiveSet</RefTableName>
+      <RefKeyName>VideoArchiveSet_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="104" parent="37" name="VideoArchiveSetID_FK">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="37" name="MergeDate">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="37" name="IsNavigationEdited">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="37" name="StatusMessage">
+      <Position>4</Position>
+      <DataType>varchar(512 char)|0s</DataType>
+    </column>
+    <column id="108" parent="37" name="VideoFrameCount">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="37" name="DateSource">
+      <Position>6</Position>
+      <DataType>varchar(4 char)|0s</DataType>
+    </column>
+    <column id="110" parent="37" name="id">
+      <Position>7</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="111" parent="37" name="MergeType">
+      <Position>8</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="37" name="IsHD">
+      <Position>9</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <index id="113" parent="37" name="EXPDMergeHistory_PK">
+      <Position>2</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="114" parent="37" name="EXPDMergeHistory_PK">
+      <ObjectId>1282155663</ObjectId>
+      <CreatedTimestamp>2013-03-11.09:54:05.867</CreatedTimestamp>
+      <ModifiedTimestamp>2013-03-11.09:54:05.867</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>EXPDMergeHistory_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="115" parent="38" name="VideoArchiveSetID_FK">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="38" name="MergeDate">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="38" name="IsNavigationEdited">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="38" name="StatusMessage">
+      <Position>4</Position>
+      <DataType>varchar(512 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="38" name="VideoFrameCount">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="38" name="IsMerged">
+      <Position>6</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="38" name="DateSource">
+      <Position>7</Position>
+      <DataType>varchar(4 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="122" parent="38" name="EXPDMergeStatus_PK">
+      <Position>1</Position>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="123" parent="38" name="EXPDMergeStatus_PK">
+      <ObjectId>789577851</ObjectId>
+      <CreatedTimestamp>2010-02-27.00:55:42.157</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-27.00:55:42.157</ModifiedTimestamp>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+      <UnderlyingIndexName>EXPDMergeStatus_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="124" parent="39" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="39" name="VideoFrameID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="126" parent="39" name="ObservationDTG">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="127" parent="39" name="Observer">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="128" parent="39" name="ConceptName">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="129" parent="39" name="Notes">
+      <Position>6</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="130" parent="39" name="LAST_UPDATED_TIME">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="131" parent="39" name="X">
+      <Position>9</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="132" parent="39" name="Y">
+      <Position>10</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <index id="133" parent="39" name="Observation_PK">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="134" parent="39" name="idx_Observation_LUT">
+      <Position>5</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="135" parent="39" name="idx_Observation_FK1">
+      <Position>6</Position>
+      <ColNames>VideoFrameID_FK</ColNames>
+    </index>
+    <index id="136" parent="39" name="idx_Observation_ConceptName">
+      <Position>7</Position>
+      <ColNames>ConceptName</ColNames>
+    </index>
+    <key id="137" parent="39" name="Observation_PK">
+      <ObjectId>293576084</ObjectId>
+      <CreatedTimestamp>2010-02-24.07:44:38.040</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-24.07:44:38.040</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>Observation_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="138" parent="39" name="Observation_FK1">
+      <ObjectId>1593108766</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.247</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.247</ModifiedTimestamp>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <RefTableId>117575457</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoFrame</RefTableName>
+      <RefKeyName>VideoFrame_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="139" parent="40" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="40" name="VideoFrameID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="141" parent="40" name="Depth">
+      <Position>3</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="142" parent="40" name="Temperature">
+      <Position>4</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="143" parent="40" name="Salinity">
+      <Position>5</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="144" parent="40" name="Oxygen">
+      <Position>6</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="145" parent="40" name="Light">
+      <Position>7</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="146" parent="40" name="Latitude">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="147" parent="40" name="Longitude">
+      <Position>9</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="148" parent="40" name="LogDTG">
+      <Position>11</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="149" parent="40" name="LAST_UPDATED_TIME">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="150" parent="40" name="Altitude">
+      <Position>14</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <index id="151" parent="40" name="uc_PhysicalData_FK1">
+      <Position>1</Position>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="152" parent="40" name="PhysicalData_PK">
+      <Position>5</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="153" parent="40" name="idx_PhysicalData_LUT">
+      <Position>6</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="154" parent="40" name="idx_PhysicalData_FK1">
+      <Position>7</Position>
+      <ColNames>VideoFrameID_FK</ColNames>
+    </index>
+    <key id="155" parent="40" name="PhysicalData_PK">
+      <ObjectId>693577509</ObjectId>
+      <CreatedTimestamp>2010-02-25.05:40:18.830</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-25.05:40:18.830</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>PhysicalData_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="156" parent="40" name="uc_PhysicalData_FK1">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2010-09-01.14:29:10.163</CreatedTimestamp>
+      <ModifiedTimestamp>2010-09-01.14:29:10.163</ModifiedTimestamp>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <UnderlyingIndexName>uc_PhysicalData_FK1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="157" parent="40" name="PhysicalData_FK1">
+      <ObjectId>1641108937</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.290</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.290</ModifiedTimestamp>
+      <ColNames>VideoFrameID_FK</ColNames>
+      <RefTableId>117575457</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoFrame</RefTableName>
+      <RefKeyName>VideoFrame_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="158" parent="41" name="tablename">
+      <Position>1</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="159" parent="41" name="nextid">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="160" parent="42" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="42" name="VideoArchiveSetID_FK">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="162" parent="42" name="TapeNumber">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="163" parent="42" name="StartTimeCode">
+      <Position>4</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="164" parent="42" name="videoArchiveName">
+      <Position>5</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="165" parent="42" name="LAST_UPDATED_TIME">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="166" parent="42" name="VideoArchive_PK">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="167" parent="42" name="idx_VideoArchive_id">
+      <Position>6</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="168" parent="42" name="idx_VideoArchive_name">
+      <Position>7</Position>
+      <ColNames>videoArchiveName</ColNames>
+    </index>
+    <index id="169" parent="42" name="idx_VideoArchive_LUT">
+      <Position>8</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="170" parent="42" name="idx_VideoArchive_FK1">
+      <Position>9</Position>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+    </index>
+    <index id="171" parent="42" name="uc_VideoArchiveName">
+      <Position>10</Position>
+      <ColNames>videoArchiveName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="172" parent="42" name="VideoArchive_PK">
+      <ObjectId>149575571</ObjectId>
+      <CreatedTimestamp>2010-02-24.05:52:32.900</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-24.05:52:32.900</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>VideoArchive_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="173" parent="42" name="uc_VideoArchiveName">
+      <ObjectId>821577965</ObjectId>
+      <CreatedTimestamp>2010-09-01.14:28:39.990</CreatedTimestamp>
+      <ModifiedTimestamp>2010-09-01.14:28:39.990</ModifiedTimestamp>
+      <ColNames>videoArchiveName</ColNames>
+      <UnderlyingIndexName>uc_VideoArchiveName</UnderlyingIndexName>
+    </key>
+    <foreign-key id="174" parent="42" name="VideoArchive_FK1">
+      <ObjectId>1657108994</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.303</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.303</ModifiedTimestamp>
+      <ColNames>VideoArchiveSetID_FK</ColNames>
+      <RefTableId>101575400</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoArchiveSet</RefTableName>
+      <RefKeyName>VideoArchiveSet_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="175" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="176" parent="43" name="TrackingNumber">
+      <Position>2</Position>
+      <DataType>varchar(7 char)|0s</DataType>
+    </column>
+    <column id="177" parent="43" name="ShipName">
+      <Position>3</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="178" parent="43" name="PlatformName">
+      <Position>4</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="179" parent="43" name="FormatCode">
+      <Position>5</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+    </column>
+    <column id="180" parent="43" name="StartDTG">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="181" parent="43" name="EndDTG">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="182" parent="43" name="LAST_UPDATED_TIME">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="183" parent="43" name="VideoArchiveSet_PK">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="184" parent="43" name="idx_VideoArchiveSet_id">
+      <Position>4</Position>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="185" parent="43" name="idx_VideoArchiveSet_LUT">
+      <Position>5</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <key id="186" parent="43" name="VideoArchiveSet_PK">
+      <ObjectId>133575514</ObjectId>
+      <CreatedTimestamp>2010-02-24.05:46:34.410</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-24.05:46:34.410</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>VideoArchiveSet_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="187" parent="44" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="44" name="RecordedDtg">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="189" parent="44" name="TapeTimeCode">
+      <Position>3</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="190" parent="44" name="HDTimeCode">
+      <Position>4</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="191" parent="44" name="InSequence">
+      <Position>5</Position>
+      <DataType>bit|0s</DataType>
+    </column>
+    <column id="192" parent="44" name="Displacer">
+      <Position>8</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="193" parent="44" name="DisplaceDtg">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="194" parent="44" name="VideoArchiveID_FK">
+      <Position>10</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="195" parent="44" name="LAST_UPDATED_TIME">
+      <Position>12</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="196" parent="44" name="VideoFrame_PK">
+      <Position>1</Position>
+      <ColNames>id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="197" parent="44" name="idx_VideoFrame_LUT">
+      <Position>5</Position>
+      <ColNames>LAST_UPDATED_TIME</ColNames>
+    </index>
+    <index id="198" parent="44" name="idx_VideoFrame_FK1">
+      <Position>6</Position>
+      <ColNames>VideoArchiveID_FK</ColNames>
+    </index>
+    <index id="199" parent="44" name="idx_VideoFrame_RecordedDtg">
+      <Position>11</Position>
+      <ColNames>RecordedDtg</ColNames>
+    </index>
+    <index id="200" parent="44" name="idx_VideoFrame_TapeTimeCode">
+      <Position>12</Position>
+      <ColNames>TapeTimeCode</ColNames>
+    </index>
+    <key id="201" parent="44" name="VideoFrame_PK">
+      <ObjectId>245575913</ObjectId>
+      <CreatedTimestamp>2010-02-24.07:20:25.037</CreatedTimestamp>
+      <ModifiedTimestamp>2010-02-24.07:20:25.037</ModifiedTimestamp>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>VideoFrame_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="202" parent="44" name="VideoFrame_FK1">
+      <ObjectId>1625108880</ObjectId>
+      <CreatedTimestamp>2012-11-09.01:16:21.277</CreatedTimestamp>
+      <ModifiedTimestamp>2012-11-09.01:16:21.277</ModifiedTimestamp>
+      <ColNames>VideoArchiveID_FK</ColNames>
+      <RefTableId>85575343</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>VideoArchive</RefTableName>
+      <RefKeyName>VideoArchive_PK</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="203" parent="45" name="ObservationDate">
+      <Position>1</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="204" parent="45" name="Observer">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="205" parent="45" name="ConceptName">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="206" parent="45" name="Notes">
+      <Position>4</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="207" parent="45" name="XPixelInImage">
+      <Position>5</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="208" parent="45" name="yPixelInImage">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="209" parent="45" name="TapeTimeCode">
+      <Position>7</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="210" parent="45" name="RecordedDate">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="211" parent="45" name="videoArchiveName">
+      <Position>9</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="212" parent="45" name="TrackingNumber">
+      <Position>10</Position>
+      <DataType>varchar(7 char)|0s</DataType>
+    </column>
+    <column id="213" parent="45" name="ShipName">
+      <Position>11</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="214" parent="45" name="RovName">
+      <Position>12</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="215" parent="45" name="AnnotationMode">
+      <Position>13</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+    </column>
+    <column id="216" parent="45" name="DiveNumber">
+      <Position>14</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="217" parent="45" name="ChiefScientist">
+      <Position>15</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="218" parent="45" name="CameraName">
+      <Position>16</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="219" parent="45" name="CameraDirection">
+      <Position>17</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="220" parent="45" name="Zoom">
+      <Position>18</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="221" parent="45" name="Focus">
+      <Position>19</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="222" parent="45" name="Iris">
+      <Position>20</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="223" parent="45" name="FieldWidth">
+      <Position>21</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="224" parent="45" name="Image">
+      <Position>22</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="225" parent="45" name="CameraX">
+      <Position>23</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="226" parent="45" name="CameraY">
+      <Position>24</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="227" parent="45" name="CameraZ">
+      <Position>25</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="228" parent="45" name="CameraPitchRadians">
+      <Position>26</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="229" parent="45" name="CameraRollRadians">
+      <Position>27</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="230" parent="45" name="CameraHeadingRadians">
+      <Position>28</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="231" parent="45" name="CameraXYUnits">
+      <Position>29</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="232" parent="45" name="CameraZUnits">
+      <Position>30</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="233" parent="45" name="CameraViewWidth">
+      <Position>31</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="234" parent="45" name="CameraViewHeight">
+      <Position>32</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="235" parent="45" name="CameraViewUnits">
+      <Position>33</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="236" parent="45" name="DEPTH">
+      <Position>34</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="237" parent="45" name="Temperature">
+      <Position>35</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="238" parent="45" name="Salinity">
+      <Position>36</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="239" parent="45" name="Oxygen">
+      <Position>37</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="240" parent="45" name="Light">
+      <Position>38</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="241" parent="45" name="Latitude">
+      <Position>39</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="242" parent="45" name="Longitude">
+      <Position>40</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="243" parent="45" name="Altitude">
+      <Position>41</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="244" parent="45" name="ObservationID_FK">
+      <Position>42</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="245" parent="45" name="AssociationID_FK">
+      <Position>43</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="246" parent="45" name="LinkName">
+      <Position>44</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+    </column>
+    <column id="247" parent="45" name="ToConcept">
+      <Position>45</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="248" parent="45" name="LinkValue">
+      <Position>46</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="249" parent="45" name="Associations">
+      <Position>47</Position>
+      <DataType>varchar(1208 char)|0s</DataType>
+    </column>
+    <column id="250" parent="45" name="AlternateTimecode">
+      <Position>48</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="251" parent="45" name="IsNavigationEdited">
+      <Position>49</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="252" parent="45" name="IsMerged">
+      <Position>50</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="253" parent="45" name="VideoFrameID_FK">
+      <Position>51</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="254" parent="45" name="PhysicalDataID_FK">
+      <Position>52</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="255" parent="45" name="CameraDataID_FK">
+      <Position>53</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="256" parent="45" name="VideoArchiveID_FK">
+      <Position>54</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="257" parent="45" name="VideoArchiveSetID_FK">
+      <Position>55</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="46" name="VideoArchiveSetID_FK">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="259" parent="46" name="PlatformName">
+      <Position>2</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="260" parent="46" name="SeqNumber">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="261" parent="46" name="ChiefScientist">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="262" parent="46" name="StartDate">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="263" parent="46" name="EndDate">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="264" parent="46" name="MergeDate">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="265" parent="46" name="DateSource">
+      <Position>8</Position>
+      <DataType>varchar(4 char)|0s</DataType>
+    </column>
+    <column id="266" parent="46" name="IsNavigationEdited">
+      <Position>9</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="267" parent="46" name="VideoFrameCount">
+      <Position>10</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="268" parent="46" name="StatusMessage">
+      <Position>11</Position>
+      <DataType>varchar(512 char)|0s</DataType>
+    </column>
+    <column id="269" parent="46" name="IsHD">
+      <Position>12</Position>
+      <DataType>smallint|0s</DataType>
+    </column>
+    <column id="270" parent="46" name="MergeType">
+      <Position>13</Position>
+      <DataType>varchar(25 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="271" parent="47" name="VideoArchiveSetID_FK">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="272" parent="47" name="PlatformName">
+      <Position>2</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="273" parent="47" name="SeqNumber">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="274" parent="47" name="ChiefScientist">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="275" parent="47" name="StartDate">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="276" parent="47" name="EndDate">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="277" parent="47" name="MergeDate">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="278" parent="47" name="DateSource">
+      <Position>8</Position>
+      <DataType>varchar(4 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="279" parent="47" name="IsMerged">
+      <Position>9</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="280" parent="47" name="IsNavigationEdited">
+      <Position>10</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="281" parent="47" name="VideoFrameCount">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="282" parent="47" name="StatusMessage">
+      <Position>12</Position>
+      <DataType>varchar(512 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="283" parent="48" name="ConceptName">
+      <Position>1</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="284" parent="48" name="ImageReference">
+      <Position>2</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="285" parent="48" name="RecordedDate">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="286" parent="48" name="Latitude">
+      <Position>4</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="287" parent="48" name="Longitude">
+      <Position>5</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="288" parent="48" name="Depth">
+      <Position>6</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="289" parent="48" name="LinkName">
+      <Position>7</Position>
+      <DataType>varchar(128 char)|0s</DataType>
+    </column>
+    <column id="290" parent="48" name="ToConcept">
+      <Position>8</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="291" parent="48" name="LinkValue">
+      <Position>9</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="292" parent="49" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="293" parent="49" name="ObservationDate">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="294" parent="49" name="Observer">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="295" parent="49" name="ConceptName">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="296" parent="49" name="Notes">
+      <Position>5</Position>
+      <DataType>varchar(200 char)|0s</DataType>
+    </column>
+    <column id="297" parent="49" name="XPixelInImage">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="298" parent="49" name="yPixelInImage">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="299" parent="49" name="TapeTimeCode">
+      <Position>8</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="300" parent="49" name="RecordedDate">
+      <Position>9</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="301" parent="49" name="videoArchiveName">
+      <Position>10</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="302" parent="49" name="TrackingNumber">
+      <Position>11</Position>
+      <DataType>varchar(7 char)|0s</DataType>
+    </column>
+    <column id="303" parent="49" name="ShipName">
+      <Position>12</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="304" parent="49" name="RovName">
+      <Position>13</Position>
+      <DataType>varchar(32 char)|0s</DataType>
+    </column>
+    <column id="305" parent="49" name="AnnotationMode">
+      <Position>14</Position>
+      <DataType>varchar(2 char)|0s</DataType>
+    </column>
+    <column id="306" parent="49" name="DiveNumber">
+      <Position>15</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="307" parent="49" name="ChiefScientist">
+      <Position>16</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="308" parent="49" name="CameraName">
+      <Position>17</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="309" parent="49" name="CameraDirection">
+      <Position>18</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="310" parent="49" name="Zoom">
+      <Position>19</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="311" parent="49" name="Focus">
+      <Position>20</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="312" parent="49" name="Iris">
+      <Position>21</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="313" parent="49" name="FieldWidth">
+      <Position>22</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="314" parent="49" name="Image">
+      <Position>23</Position>
+      <DataType>varchar(1024 char)|0s</DataType>
+    </column>
+    <column id="315" parent="49" name="CameraX">
+      <Position>24</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="316" parent="49" name="CameraY">
+      <Position>25</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="317" parent="49" name="CameraZ">
+      <Position>26</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="318" parent="49" name="CameraPitchRadians">
+      <Position>27</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="319" parent="49" name="CameraRollRadians">
+      <Position>28</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="320" parent="49" name="CameraHeadingRadians">
+      <Position>29</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="321" parent="49" name="CameraXYUnits">
+      <Position>30</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="322" parent="49" name="CameraZUnits">
+      <Position>31</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="323" parent="49" name="CameraViewWidth">
+      <Position>32</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="324" parent="49" name="CameraViewHeight">
+      <Position>33</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="325" parent="49" name="CameraViewUnits">
+      <Position>34</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="326" parent="49" name="DEPTH">
+      <Position>35</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="327" parent="49" name="Temperature">
+      <Position>36</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="328" parent="49" name="Salinity">
+      <Position>37</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="329" parent="49" name="Oxygen">
+      <Position>38</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="330" parent="49" name="Light">
+      <Position>39</Position>
+      <DataType>real|0s</DataType>
+    </column>
+    <column id="331" parent="49" name="Latitude">
+      <Position>40</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="332" parent="49" name="Longitude">
+      <Position>41</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="333" parent="49" name="ObservationID_FK">
+      <Position>42</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="334" parent="49" name="AlternateTimecode">
+      <Position>43</Position>
+      <DataType>varchar(11 char)|0s</DataType>
+    </column>
+    <column id="335" parent="49" name="VideoFrameID_FK">
+      <Position>44</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="336" parent="49" name="PhysicalDataID_FK">
+      <Position>45</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="337" parent="49" name="CameraDataID_FK">
+      <Position>46</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="338" parent="49" name="VideoArchiveID_FK">
+      <Position>47</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <column id="339" parent="49" name="VideoArchiveSetID_FK">
+      <Position>48</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>

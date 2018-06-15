@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Executable">
+    <output-path>$PROJECT_DIR$/out/artifacts/Executable</output-path>
+    <root id="root">
+      <element id="archive" name="vars-download.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="vars-download" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="mssql-jdbc-6.4.0.jre8" />
+        <element id="library" level="application" name="scala-sdk-2.12.6" />
+      </element>
+    </root>
+  </artifact>
+</component>
