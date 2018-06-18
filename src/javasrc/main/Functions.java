@@ -103,33 +103,54 @@ class Functions {
      * @param outputDirectory Base output directory
      */
     static void fetchImages(ResultSet[] resultSets, String[] genera, File outputDirectory) {
-        int failed = 0;
+
+        int failed = 0; // Count for images without valid .png counterpart
+
         for (int i = 0; i < resultSets.length; i++) {
+
             ResultSet genusSet = resultSets[i];
             String genus = genera[i];
+
             try {
+
                 String[][] data = readResultSet(genusSet);
-                for (String[] entry : data) {
+                final int numImages = data.length;
+                System.out.println("Fetching " + numImages + " images for concept '" + genus + "' ");
+
+                for (int j = 0; j < numImages; j++) {
+
+                    String[] entry = data[j];
+
+                    // Generate output file for row
                     File writeFile = generateFile(outputDirectory, genus, entry);
-                    if (writeFile == null) {
-                        System.err.println("Error fetching/writing image from " + entry[1]);
+
+                    if (writeFile == null) { // Bad URL, increment failed
+                        System.err.println("ERROR: Error fetching/writing image from " + entry[1]);
                         failed++;
                         continue;
                     }
-                    if (writeFile.exists()) continue;
+
+                    if (writeFile.exists()) continue; // If already cached, skip
+
+                    // Download and write
                     try {
+
                         URL pngURL = new URL(PNGFetcher.extractPngURL(entry[1]));
                         ImageIO.write(ImageIO.read(pngURL), "png", writeFile);
-                        System.out.println("Copied " + pngURL.toString() + " to " + writeFile.getAbsolutePath());
-                    } catch (IOException e) {
-                        System.err.println("Error fetching/writing image from " + entry[1]);
+
+                        System.out.print("Copied " + pngURL.toString() + " to " + writeFile.getAbsolutePath());
+                        System.out.println(" (" + j + "/" + numImages + ") " + Math.round((double)(j) / numImages * 1000) / 10 + "%");
+
+                    } catch (Exception e) { // Failure in download/write, increment failed
+                        System.err.println("ERROR: Error fetching/writing image from " + entry[1]);
                         failed++;
                     }
                 }
+
             } catch (SQLException e) {
-                System.err.println("Error reading genus result set for genus '" + genus + "', skipping");
-                e.printStackTrace();
+                System.err.println("CRITICAL: Error reading genus result set for genus '" + genus + "'");
             }
+
         }
         System.out.println(failed + " link" + ((failed == 1)?"":"s") + " failed.");
     }
@@ -143,8 +164,11 @@ class Functions {
      * @return File at formatted location
      */
     private static File generateFile(File outputDirectory, String genus, String[] rowData) {
+
         File folder = new File(String.join("/", outputDirectory.getAbsolutePath(), genus, rowData[0]));
+
         if (!folder.exists()) folder.mkdirs();
+
         try {
             return PNGFetcher.urlToFile(folder, PNGFetcher.extractPngURL(rowData[1]), rowData[2], rowData[3]);
         } catch (Exception e) {
